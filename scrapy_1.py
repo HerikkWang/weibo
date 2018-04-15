@@ -5,8 +5,8 @@ import Login
 from urllib.request import urlopen
 import csv
 
-'''scrape the data, whose attributes include question_content, question_value, questioner_name, 
-questioner_id, replier_name, replier_id, question_time'''
+# scrape the data, whose attributes include question_content, question_value, questioner_name,
+# questioner_id, replier_name, replier_id, question_time
 
 csv_write_path = r"C:\Users\Administrator\PycharmProjects\weibo\weibo_data_2_1.csv"
 csv_read_path = 'weibo_data_4_processed.csv'

@@ -37,7 +37,7 @@ while t <= 48:
     url_part_2 = '&page=%d'%t
     try:
         wd.get(url_part_1+url_part_2)
-        time.sleep(random.randint(5,10))
+        time.sleep(9)
         for element in wd.find_elements_by_class_name('W_btn_c6'):
             url = element.get_attribute('href')
             set_2.add(url)
