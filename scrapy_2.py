@@ -66,3 +66,4 @@ with open(csv_read_path, 'r', encoding='utf-8') as f:
 
 cur.close()
 conn.close()
+wd.close()
